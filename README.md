@@ -1,5 +1,7 @@
 # Страница со списком игр + фильтры
 
+## [Demo preview](https://nanammii.github.io/games-chart/)
+
 ### Стек:
 - React
 - Redux
