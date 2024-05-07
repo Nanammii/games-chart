@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/games-chart/static/css/main.7da75aa6.css",
+    "main.js": "/games-chart/static/js/main.84cc4bb7.js",
+    "static/js/453.2169ebc1.chunk.js": "/games-chart/static/js/453.2169ebc1.chunk.js",
+    "static/media/poppins-regular.ttf": "/games-chart/static/media/poppins-regular.35d26b781dc5fda684cc.ttf",
+    "static/media/poppins-semibold.ttf": "/games-chart/static/media/poppins-semibold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/poppins-regular.woff": "/games-chart/static/media/poppins-regular.6c52b9ac6734cdb52c11.woff",
+    "static/media/poppins-semibold.woff": "/games-chart/static/media/poppins-semibold.07608aed0ae659b64793.woff",
+    "static/media/poppins-regular.woff2": "/games-chart/static/media/poppins-regular.9641d5d087bc9e626d4c.woff2",
+    "static/media/poppins-semibold.woff2": "/games-chart/static/media/poppins-semibold.b2be0bf638eacbb24415.woff2",
+    "index.html": "/games-chart/index.html",
+    "main.7da75aa6.css.map": "/games-chart/static/css/main.7da75aa6.css.map",
+    "main.84cc4bb7.js.map": "/games-chart/static/js/main.84cc4bb7.js.map",
+    "453.2169ebc1.chunk.js.map": "/games-chart/static/js/453.2169ebc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7da75aa6.css",
+    "static/js/main.84cc4bb7.js"
+  ]
+}
