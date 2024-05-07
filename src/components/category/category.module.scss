@@ -1,0 +1,27 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.category__title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.games__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  //grid-template-rows: repeat(auto-fill, 265px);
+  gap: 40px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

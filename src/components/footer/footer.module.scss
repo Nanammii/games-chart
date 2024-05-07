@@ -1,0 +1,25 @@
+.footer {
+  background-color: #171717;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+}
+
+.title {
+  padding: 40px 0;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #b0b0b0;
+}

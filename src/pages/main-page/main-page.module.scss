@@ -1,0 +1,65 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #020510;
+  color: #e5e5e5;
+
+
+  @media (min-width: 1920px) {
+    width: 1920px;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px 0 rgba(0, 1, 1, 0.5);
+  }
+}
+
+.page__index {
+  min-height: 100vh;
+  padding-block: 30px;
+}
+
+.content__container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 30px 15px 50px;
+  border-radius: 15px;
+  background: #1e1e1e;
+
+  @media (min-width: 768px) {
+    padding-inline: 30px;
+  }
+}
+
+.page__filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filters {
+  padding: 4px 10px;
+  border: 1px solid rgba(233, 233, 233, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #e5e5e5;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.options {
+  background-color: #1d1731;
+  color: #acacac;
+  border-radius: 11px;
+
+  &:hover {
+    background-color: inherit;
+    color: rgba(225, 225, 225, 0.3);
+  }
+}
+
+.label {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(233, 233, 233, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
